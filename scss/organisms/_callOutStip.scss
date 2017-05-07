@@ -1,0 +1,25 @@
+/* scss/organisms/_callOutStip.scss */
+
+.callOutStrip{
+    background: $color2;
+    padding: 50px 20px;
+    border-top: 5px solid #fff;
+    border-bottom: 10px solid #fff;
+}
+.callOutStrip__inner{
+    //max-width: 900px;
+    margin: auto;
+}
+.callOutStrip__item{
+    @include col($four);
+    padding: 20px;
+}
+
+@media only screen and ( max-width: 1040px ){
+    .callOutStrip__item{
+        @include col($twelve);
+        padding: 0;
+        margin-bottom: $base;
+        text-align: center;
+    }
+}

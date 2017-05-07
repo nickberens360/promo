@@ -1,0 +1,11 @@
+/*scss/organisms/_footerMain.scss*/
+
+.footerMain{
+  background:#fff;
+  padding:40px 20px;
+  text-align: center;
+  .navMain{
+      float: none;
+      margin-bottom: $base*4;
+  }
+}

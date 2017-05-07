@@ -1,0 +1,19 @@
+/* scss/siteFonts/_fonts.scss */
+
+$bodyFont: 'Raleway', sans-serif;
+$secondaryFont: 'Raleway', sans-serif;
+
+.font1{
+	font-family: $bodyFont;
+}
+.font2{
+	font-family: $secondaryFont;
+	font-weight: 300;
+}
+
+.font{
+    font-weight: 400;
+	span{
+		display:block;
+	}
+}

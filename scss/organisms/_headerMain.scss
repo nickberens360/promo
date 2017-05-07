@@ -1,0 +1,51 @@
+/*scss/organisms/_headerMain.scss*/
+
+.headerMain{
+    //height: 150px;
+
+  position: relative;
+  z-index: 5000;
+}
+
+.logo{
+  max-width: 380px;
+  width: 100%;
+}
+
+
+.headerMain__inner{
+  @extend .wrap;
+  @extend .grid-row;
+  padding:20px;
+  height: 100%;
+}
+.headerMain__item{
+
+}
+.headerMain__left{
+  @include col($four); 
+}
+.headerMain__right{
+  @include col($eight); 
+  text-align: right;
+  z-index: 1000;
+  .offerLink{
+      margin-bottom: 50px;
+  }
+  .navMain{
+      display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 1044px) {
+  .headerMain__item{
+    @include col($twelve);
+    margin-bottom: $base/2;
+    .offerLink{
+      margin-bottom: 0;
+    }
+  }
+  .headerMain__left{
+    text-align: center;
+  }
+}

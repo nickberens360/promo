@@ -1,0 +1,88 @@
+/* scss/organisms/_banner.scss */
+
+html, body, .banner, .carousel-inner, .item{
+  //height: 100%;
+}
+
+.slideOverlay{
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 1185px;
+  left: 40px;
+  right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  p{
+    margin-bottom: 0;
+    font-size: 30px;
+    color: #fff;
+    max-width: 700px;
+    span{
+      font-weight: bold;
+    }
+  }
+}
+
+
+@media only screen and ( max-width: 884px ){
+  .slideOverlay{
+    max-width: 600px;
+
+    p{
+      margin-bottom: 0;
+      font-size: 24px;
+    }
+  }
+}
+
+@media only screen and ( max-width: 707px ){
+  .banner .item{
+    display: none;
+  }
+  .slideOverlay{
+   background: $color1;
+    position: relative;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    transform: translateY(0);
+    padding: 50px 20px;
+    p{
+      margin-bottom: 0;
+      font-size: 20px;
+    }
+  }
+}
+
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+

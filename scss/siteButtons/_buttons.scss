@@ -1,0 +1,39 @@
+.btns {
+  display: inline-block;
+  background: none;
+  padding: 5px 80px;
+  color: #fff;
+  opacity: 1;
+  cursor: pointer;
+  transition: all .25s;
+  position: relative;
+  border: 2px solid #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.btns:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+
+
+.btn1 {
+  background: $color1;
+  &:hover{
+    background: $color1;
+    color: #fff;
+  }
+}
+
+.btn2 {
+  background: #fff;
+  color: $color1;
+  &:hover{
+    background: #fff;
+    color: $color1;
+  }
+}

@@ -1,0 +1,37 @@
+/* scss/misc/_cleanup.scss */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  font-family: $secondaryFont;
+  color: $textColor;
+  font-size: 18px;
+}
+img{
+  max-width:100%;
+}
+hr{
+  border:1px solid #ccc;
+}
+
+a:hover, a:focus{
+  text-decoration: none;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}

@@ -1,0 +1,258 @@
+[
+    {
+        "component": "buttons",
+        "category": "siteButtons",
+        "description": "",
+        "backgroundColor": "#aea5a5",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "form-misc",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "headings",
+        "category": "siteHeadings",
+        "description": "",
+        "backgroundColor": "#a8a8a8",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "block-grid",
+        "category": "layout",
+        "description": "",
+        "backgroundColor": "",
+        "order": "1",
+        "has_js": "false"
+    },
+    {
+        "component": "grid",
+        "category": "layout",
+        "description": "",
+        "backgroundColor": "",
+        "order": "2",
+        "has_js": "false"
+    },
+    {
+        "component": "main",
+        "category": "layout",
+        "description": "",
+        "backgroundColor": "",
+        "order": "3",
+        "has_js": "false"
+    },
+    {
+        "component": "matchheight",
+        "category": "layout",
+        "description": "",
+        "backgroundColor": "",
+        "order": "4",
+        "has_js": "false"
+    },
+    {
+        "component": "section",
+        "category": "layout",
+        "description": "",
+        "backgroundColor": "",
+        "order": "5",
+        "has_js": "false"
+    },
+    {
+        "component": "navMain",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "true"
+    },
+    {
+        "component": "footerMain",
+        "category": "organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "headerMain",
+        "category": "organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "col",
+        "category": "variables",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "colors",
+        "category": "siteColors",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "vertical-rhythm",
+        "category": "variables",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "wrap",
+        "category": "variables",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "dropit",
+        "category": "vendor",
+        "description": "",
+        "backgroundColor": "",
+        "order": -17,
+        "has_js": "false"
+    },
+    {
+        "component": "cleanup",
+        "category": "misc",
+        "description": "",
+        "backgroundColor": "",
+        "order": -18,
+        "has_js": "false"
+    },
+    {
+        "component": "callOut",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "atomic-head",
+        "category": "atomicHead",
+        "description": "",
+        "backgroundColor": "",
+        "order": -22,
+        "has_js": "false"
+    },
+    {
+        "component": "fonts",
+        "category": "siteFonts",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "textarea",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "form-input",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "selectbox",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "checkbox",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "label",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": -26,
+        "has_js": "false"
+    },
+    {
+        "component": "links",
+        "category": "siteButtons",
+        "description": "",
+        "backgroundColor": "",
+        "order": -26,
+        "has_js": "false"
+    },
+    {
+        "component": "banner",
+        "category": "organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "linkRow",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "callOutStip",
+        "category": "organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "actionStrip",
+        "category": "organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "offerLink",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "socialRow",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    }
+]

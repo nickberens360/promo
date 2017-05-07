@@ -1,0 +1,43 @@
+/* scss/molecules/_callOut.scss */
+
+.callOut{
+  text-align: center;
+  background: #c1c1c1 url('../img/callout1.png') top center  no-repeat;
+  background-size: contain;
+  max-width: 450px;
+  border-radius: 30px;
+  border: 5px solid $color1;
+  padding: 20px;
+  padding-top: 213px;
+  display: inline-block;
+}
+.callOut-2{
+  background: #c1c1c1 url('../img/callout2.png') top center  no-repeat;
+  background-size: contain;
+}
+
+
+
+.callOut__text{
+  font-size: 20px;
+}
+.callOut__heading{
+  margin-bottom: 9px;
+}
+
+.callOut.callOut-alt{
+  padding-bottom: 213px;
+  padding-top: 41px;
+  padding-bottom: 20px;
+  background: #62a710;
+  background: -moz-linear-gradient(top,  #62a710 0%, #f6faf2 100%);
+  background: -webkit-linear-gradient(top,  #62a710 0%,#f6faf2 100%);
+  background: linear-gradient(to bottom,  #62a710 0%,#f6faf2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62a710', endColorstr='#f6faf2',GradientType=0 );
+  .callOut__heading{
+    color: #fff;
+  }
+  .callOut__img{
+    margin-bottom: 38px;
+  }
+}

@@ -1,0 +1,15 @@
+/* scss/molecules/_offerLink.scss */
+
+.offerLink{
+    font-size: 30px;
+    color: $color1;
+    font-style: italic;
+    display: block;
+}
+
+@media only screen and (max-width: 1044px) {
+    .offerLink{
+        text-align: center;
+        font-size: 24px;
+    }
+}
